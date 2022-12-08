@@ -1,0 +1,73 @@
+Fragen:
+
+Abgabe:
+
+	1. was abgeben?
+		1. Code auf USB-Stick, CD, SD-Karte?
+			- SD Karte 2x
+		2. wie oft Ausdrucken? 
+			1. wie Ausdrucken? Richtlinien?
+				75-85 stärke
+				bindung: textil klebebindung
+			2. Post; zu Händen von?
+				oder an Sekretariat + Zettel an jeweiligen Prof
+	2. Eidesstaatliche Erklärung von wo?
+		
+		Statutory declaration
+		I, <NAME>, hereby declare that the present information in this
+		thesis has been written by me independently.
+		Furthermore, I assure that I have not used any sources or aids other than those
+		indicated, and that all statements taken verbatim or in spirit from other writings
+		have been identified. The same applies to attached sketches and illustrations. In
+		addition, I assure that the work in the same or similar version has not yet been part of a study course or examination.
+		
+
+Text:
+	
+	1. Motivation, Ziel? --> Introduction is enough
+		- warum mache ich diese Arbeit und was ist das Ziel?
+		- 2 strategiespiele
+			- Einzelespieler
+			- Mehrspieler
+		- Testung der Eignung von RL Methoden für Spiele
+	
+	2. Fundamentals
+		- 1-2 Algorithmen hinzufügen?
+			- DQN, PPO, (Reinforce, DDQN)
+		- Pseodoalgorithmen kann man hinzufügen
+			(mach alle 4)
+	3. Games
+		- warum generell strategische Brettspiele?
+		- warum ausgerechnet diese beiden Spiele?
+	5. Results
+		- Diagramme wie viel Glätten? (Tensorboard zeigen) (Standard, nochmal anhören [kurve darf nicht zu sehr "einknicken".. einfach generell halten)
+		- Again, worauf soll ich Zielen? Soll ich überhaupt auf etwas 
+			Zielen, oder einfach jeden Algorithmus individuell Betrachten
+			und bewerten?
+			
+	Seitenzahl:
+		zählt das vom Deckblatt aus? oder 1. Kapitel
+			- erst ab 1. Chapter
+	
+Implementierung:
+	1. Passt das?
+	2. Battleship wird nie gut performen, da die Algorithmen nicht auf POMDPs ausgelegt sind?
+	
+	battleship:
+		- auswahl von nachbarzellen erzwingen, on hit
+		- er hat gefragt ob die Schiffe sich berühren bzw. geht davon aus, dass sie sich nicht berühren
+			- fix, dass sie sich nicht berühren? zumindest nicht in die selbe richtung
+		
+	mastermind:
+		- sieht agent richtige farbe, falsche reihe?
+		- grünes X ersetzen
+		
+		
+		
+		
+weitere Fragen:
+
+	- soll ich den GANZEN Code, in Appendix hinzufügen?
+	- bis wann ich an kolloq rechnen kann
+		- exma
+		- online?
