@@ -1,0 +1,80 @@
+\chapter{Implementation}
+\label{chap:implementation}
+
+\todo{say code was written in general fashion with actor learner API, so environments can be plugged in and out}
+
+\todo{can explain classes/files in appendix?}
+
+\todo{pictures of the NN of each algorithm}
+
+
+This chapter will discuss, how the games and the agents were implemented. Additionally, required steps, to reproduce the setup will be provided. 
+
+
+\section{Development}
+\label{sec:imp_development}
+Python was used as the programming language for the implementation of the agents, as well as environments. Furthermore, for the implementations of the agents \textit{jupyter} was used. A Linux operating system is required, due to using \textit{Reverb}, by \citeA{cassirer2021reverb}, for the experience replay. The agents were implemented with the deep RL library \textit{TF-Agents} by \citeA{TFAgents}. The library offers, among other things, implementations of various RL algorithms. It is easy to use and provides many code examples, alongside the extensive documentation. Full setup instructions are listed in appendix \ref{chap:app_dev}.
+
+
+\section{Environment}
+\label{sec:environment}
+\todo{rewrite first sentences}
+One of the requirements is creating an environment. As previously discussed, in RL the agent is interacting with an environment, to aquire a reward for its action and transition to the next state of the environment. In TF-Agents, all environments must implement certain features to run. This includes:
+
+\begin{enumerate}
+
+	\item{Specifications regarding the format and size of possible actions.}
+	\item{Specifications regarding the format and size of states.}
+	\item{Steps to be executed after an episode is over.}
+	\item{Steps to be executed during each step iteration.}
+	\item{(Optionally) information on how the environment should be presented. \todo{is optional?}}
+
+\end{enumerate}
+
+The details regarding the actions and states are used for the calculation of neural network layers and neurons \todo{check if true}. The steps at the end of an episode, usually include resetting counters and variables to their initial value, such as, training step counter, current state of the environment and environment specific things. For instance, in Mastermind, a new code will be generated and previous guesses deleted. In Battleships, the ships will be replaced into different starting positions and the counters for hit and miss are reset. Steps after each action may include action pre-processing and reward calculation.
+
+\subsection{Mastermind}
+\label{ssec:mastermind}
+
+The features for the Mastermind environment are as following:
+\begin{enumerate}
+
+	\item{The action-space consists of $6^4$ actions. This number reflects all variants of the code and is composed of the total number of colours and the number of colours to be guessed, respectively. Using a single digit instead of an array of integers reduces complexity, accordingly, training is faster.}
+	\item{In the observation specifications, two values are captured: the current state of the environment and all valid actions for action-masking, see section \ref{sec:action_masking}. The current state is reflected by a two dimensional array with four elements (number of colours to be guessed). The boundaries of the values are according to the number of total colours. The other value, all valid actions for the current state of the environment, consists of an boolean array with $6^4$ elements, each of which corresponding to the validity of the action.}
+	\item{At the end of each episode, a new code is generated, valid actions and all states, this includes the current and accumulated states over an episode, are resetting. The end of an episode is reached, when either the agent breaks the code, or 10 rounds have passed.}
+	\item{During each step iteration, the action is transformed, see section \ref{sec:preprocessing}, feedback, reward and valid actions are calculated.}
+	\item{The environment is shown in a terminal, along with all guesses and feedback.}
+
+\end{enumerate}
+
+
+\subsection{Battleship}
+\label{ssec:Battleship}
+\todo{update, based on what the final version is}
+Battleship features have been implemented as following:
+
+\begin{enumerate}
+
+	\item{The action-space has $10 \times 10$ actions, which reflects each cell of the board.}
+	\item{The observation-space covers the $10 \times 10$ gaming board, which is encoded in an integer array of the same size. Each cell has a value for its current status: unknown, hit, miss. }
+	\item{New ships are generated and placed after the end of each episode. Additionally, counters for hits and misses are reset, as well as the accumulated states.}
+	\item{At each step iteration, the action is transformed, see section \ref{sec:preprocessing}, the status of the targeted cell is updated. Moreover, reward are calculated and accumulated states are updated.}
+	\item{Again, the environment is shown in a terminal. Each cell its status is shown (water, hit, miss).}
+
+\end{enumerate}
+
+\section{Policy}
+\label{sec:policy}
+\todo{what is stochastic [actor policy]?}
+Policies can have different tasks, which depend on the algorithm, and the number may also vary. For most of the agents, they are configurable. DQN uses per default an epsilon greedy policy for collecting data and a greedy policy for evaluating it. The REINFORCE agent, using the baseline rather than the monte-carlo method, uses a greedy policy for its evaluation and a stochastic actor policy for its data collection. Lastly, the PPO agent uses.
+
+\section{Pre-Processing}
+\label{sec:preprocessing}
+In addition to the pre-processing steps taken by the library, further pre-processing steps were performed. Regarding Mastermind, this involves transforming the actions, due to the specifications of the actions, as well as observations. The action its value is transformed into an array of single digit integers, each of which corresponds to a distinct color of the code, rather than an index for a colour combination. In Battleship, the action is also transformed. Again, an integer, that acts as an index, is used for the input. The input is decomposed into two single digits; the \textit{x} and \textit{y} coordinates of the cell to be targeted.
+
+
+\section{Action-masking}
+\label{sec:action_masking}
+It is not uncommon, that actions available in one state of the environment, cannot be performed in another one. In a grid-based game, for instance, there may be walls or obstacles that the player cannot pass, as a result, an action, that attempts to walk through that obstacle is pointless. However, the same action may work fine in another state. One common approach of tackling these type of issues is to give the agent a penalty for invalid actions. A penalty includes, giving the agent a negative reward for that action in that particular case \cite{huang2020closer}.
+
+Another approach includes masking invalid actions. Action-masking is performed during action selection for the current state of the environment. Before calculating the probability of each action, the logits of invalid actions are set to a high negative value, e.g. $-1 \times 10^8$. As a result, the likelihood of taking such action under those circumstance will be virtually 0\% \cite{huang2020closer}. This approach was used for both games. In Mastermind, actions were masked according to feedback, i.e. subsequent actions must have at least same number of correctly guessed colours and in Battleship, actions were masked based on hits and misses, i.e. fields, that have been previously explored, are not explorable for the remaining episode. 

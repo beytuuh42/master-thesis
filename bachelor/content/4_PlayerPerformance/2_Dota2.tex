@@ -1,0 +1,48 @@
+\section{Dota 2} \label{sec:d2}
+Dota 2 is an online action RTS video game created by Valve corporation. It is the most played game on Steam, a digital distribution platform for video games \cite{steam_about, valve_about}, with peaking close to 1.3 million players \cite{steam_charts_dota}. Players all over the world compete against each other, whether on the Internet or in tournaments. The biggest tournament, \textit{The International}, is held annually. It is directly hosted by Valve and teams have to qualify or invited in order to participate. For the 16-19 participating teams there is a prize pool, which increased since the beginning of the tournament in 2011. In 2011 the prize pool was \$1.6 million and has increased to \$34 million for 2019, with \$15.6 million for the first placed team.
+
+\subsection{Gameplay} 
+In the standard competitive game mode \textit{Captains Mode}, out of the 119 \textit{Heroes}, character with unique abilities \cite{dota2_heroes}, ten are picked, through a specific alternating pick and ban procedure, resulting into a 5v5 game \cite{GameMode51:online}. Both teams are competing to destroy the opposing \textit{Ancient}, a large structure which is located in the base of the opposing team, while defending their own. Players can attack or use abilities to combat the opponent \cite{dota2_main}. Timing and positioning are crucial factors, which might determine the outcome of a fight. For instance, in a team fight, with teams of equal strength, the team with more heroes starting a fight will win more likely, because of the numbers advantage. The game is played on a map, which is divided diagonally into two halves and represents each team its territory. It is covered by FOG and there are three lanes (top, middle and bottom), which act as a path to connect both Ancients \cite{MapDota250:online}. At the start of a game, the players split up on the lanes, while one goes into the jungle \cite{HeroRole89:online}. Heroes are initially weak and it is essential to strengthen them in order to win. This is done by collecting gold and experience points (XP). XP is used to level up heroes so their attributes e.g. health points (HP), armor, damage of abilities, increase. Buying items with gold from the shop can have the same effect, as well as, assisting in other ways, as regenerating health points, or granting additional abilities. XP also leads to upgrading or unlocking new abilities \cite{dota2_main}.
+
+Gold and XP can be acquired in various ways, such as killing enemy lane creeps, or being present when they die \cite{dota2_main}. Lane creeps are monsters that spawn frequently in squads on each lane and move towards the enemy Ancient \cite{dota2_lcreeps}. The amount of gold and XP they give increases over game time. Killing neutrals creeps is another option to gain gold and XP. The difference between neutral and lane creeps is, that neutral creeps spawn at fix points in the jungles, which are located between the lanes on both sides of the map \cite{dota2_ncreeps}. The most powerful one is \textit{Roshan}, which is usually fought as a team, because of its strength. Additionally, to the XP is grants, the whole team will get gold, as well as, item(s), which depends on the amount of times it got killed in the game so far. Roshan is usually fought, when the opposing team cannot contest it, due to losing a team fight, or numbers disadvantage \cite{RoshanDo87:online}. Other ways of gaining resources are killing enemy heroes or buildings \cite{dota2_gold}.
+
+\begin{figure}%
+\centering
+\includegraphics[width=6cm, height=6cm]{source/images/d2_map}%
+\caption[Map in Dota 2]{Map in Dota 2. The map is split in two halves, one for the green team (Radiant) and one for the red team (Dire). The red lines are indicating the lanes top, middle and bottom, respectively. Roshan is located in the left river and indicated by a pink cross. Yellow circles indicate both Ancients. Source: Adapted from \protect\cite{MapDota250:online}}%
+\label{fig:d2_map}%
+\end{figure}
+
+%\todo[inline]{policy gradient method erklären, }
+\subsection{OpenAI Five}\label{ssec:five}
+OpenAI, a company for AI research and deployment \cite{AboutOpe97:online}, developed a bot that learned the entire game from scratch by self-play. Under standard tournament rules, the bot was able to beat several top professional players, including the top 1v1 player, in 1v1 matches. The next step for OpenAI was to transition into 5v5 matches, which is more complex, due to different winning conditions and ``team'' aspect \cite{MoreonDo74:online}.
+
+For the 5v5 game mode, OpenAI developed OpenAI Five, the first AI to defeat the world champions by winning two back-to-back games. 
+The AI was trained using a custom general-purpose RL training system, which goes by the name ``Rapid'' \cite{OpenAI_dota}. Rapid is a massively scaled implementation of Proximal Policy Optimization (PPO), a policy gradient method which collects a batch of experiences, updates the decision-making policy, dismisses the batch and starts over \cite{2017arXiv170706347S}. This process results in stabilization and acceleration of the training process.
+For obtaining the policy outputs, the processed observation is passed through a 4096-unit LSTM (Long short-term memory), an ANN which is used to store information over longer periods. All five heroes use the same architecture with minor tweaks, such as distance to other unit, or lane assignment \cite{2019arXiv191206680O}. The agents were trained, using this architecture, by playing 180 years worth of games everyday against itself, via self-play. The agents played 80\% of the games against its current version and the remaining 20\% against past ones, to gain more robust strategies and prevent \textit{strategy collapse}, which leads to forgetting on how to play against a broad variety of opponents because it does only require a limited range of strategies to defeat the immediate past self \cite{2019arXiv191206680O}. Due to continually changes to the code and environment, e.g. game-updates, lift restrictions, model architecture, \textit{surgery}, a collection of tools, was developed. This prevented the AI to be retrained from beginning, every time something changed. 
+
+\subsubsection{Milestones}
+OpenAI Five gradually reached new milestones by following order:
+\begin{enumerate}
+	\item Beat the OpenAI scripted baseline.
+	\item Tied in a match of two games against the employee team of OpenAI, which had 2500 MMR.
+	\item Won all games against teams with an MMR range from 2500 up to 6000.
+	\item Won two of its first three games against an amateur (4200 MMR) and semi-pro team (5500 MMR) \cite{OpenAI_dota}.
+	\item Won against popular casters in front of a live audience.
+	\item Beat four professional teams, including the world champions. 
+\end{enumerate}
+However, those matches were played under a set of restrictions, e.g., mirror match of certain heroes (OpenAI Five and enemy team picks same heroes), no \textit{warding} (providing vision to specific areas with items), no invisibility of champions (by consumables and items), no Roshan. This changes the way on, how the game is played at world-elite level. According to OpenAI, most of those restrictions were set, because they were not implemented yet \cite{OpenAI_dota}. From the fifth milestone onwards, the restrictions were gradually removed, e.g. in the fifth game warding, Roshan and invisibility were allowed, the here pool was increased to 18. After the fifth milestone, the last major restriction was removed, which, according to OpenAI, is by pros considered ``Real Dota'' gameplay. Every hero has its own invulnerable courier, a unit which transports items to the owning hero, rather than having a single mortal one \cite{OpenAI_dota_2}. OpenAI Five lost two matches after that, but was able to beat back-to-back matches against four professional teams, including the world champion. At that time, the only remaining restrictions were, picking from a hero pool of 17, no summons (units that are created by heroes to aid them \cite{SummonsD34:online}) and no illusions (weaker copies of heroes, created by heroes\cite{Illusion51:online}). In order to explore if it can consistently be exploited by unusual playstyle, it was opened as OpenAI Five Arena to the public for competitive online games. Out of 7257 games, OpenAI Five won 99.4\%, with one team winning 10, from the 42 losses, games in a row. 
+
+
+\subsection{Metrics}
+To measure the performance of the various agents, different metrics and techniques were used, which are the following:
+\begin{itemize}
+	\item a detailed reward function was used, for actions which are considered by human players to be good
+	\begin{itemize}
+		\item e.g. reward for gaining gold, XP, kills and penalty for deaths, wrong lane assignment
+	\end{itemize}
+	\item playing against amateur teams, with known MMR
+	\item playing against professional and world-elite level teams
+	\item using reaction time as a key for human dexterity \cite{2019arXiv191206680O}
+	\item using TrueSkill, a generalization of the Elo system used in Chess \cite{NIPS2006_3079}, to compare against humans and agents 
+\end{itemize}

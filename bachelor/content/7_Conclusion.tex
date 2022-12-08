@@ -1,0 +1,23 @@
+\chapter{Conclusion}
+\section{Summary}
+This thesis aimed to find out the suitability of evaluation metrics for the performance of artificial intelligence systems in Arcade video games and whether other metrics can be applied. In order to do that state-of-the-art systems on popular and Arcade games had to be researched and analyzed.
+
+Six different AI systems were researched by splitting them into two groups, which include: Reinforcement Learning and Evolutionary Algorithm. The RL algorithms consist of four algorithms, from whom two are an upgraded version of one. They learn by interacting with the environment and receive reward signals that tell if their behavior is good or not. The EA algorithms learn differently; they follow a evolutionary approach. This means that the best agents are reproducing over generations in order to find the fittest. Due to the different behavior and structure of the algorithms, they perform tasks differently.
+
+After researching the AI systems, five games were analyzed. Various information about the games was collected, such as the relevance in esports and competitiveness, the main objective of the game, in-game units and mechanics, unique features and characteristics, important steps to take in order to win, metrics for strong players, and more. Two of those games, Dota 2 and SC2, have AI systems that play their respective game on a professional level. \ref{ssec:alphastar} and \ref{ssec:five} continuously played games against human players and defeat them, including world champions and top-level players. Both games have diverse evaluation metrics, due to the nature of the games, but are overlapping in some cases, e.g. evaluating based on performance against humans. 
+
+Further metrics were researched in regards of Arcade games. Across the evaluations of the researched algorithms, the established metric is the number of total scores. The evaluation methods differ; for example, the score value can be normalized or aggregated. With this approach, the agents can be compared to each other and even humans. 
+
+Researchers are testing their algorithms on a large number of games, 57 in the case of \cite{2018arXiv180300933H}. Evaluating those algorithms based on more than one metric would require additional time and resources, because every game has to be manually reviewed and analyzed, in terms of player performance metrics. However, this is only needed once because the metrics are shared alongside the results.
+
+For the experimental evaluation, pre-trained models were used. Due to the limitation of the given information by the Atari environment, modification to the source code was necessary to apply introduced evaluation methods and techniques. These modifications include the output of the reward, whether it was gained or not and the playtime. 
+
+The experiments showed that different approaches could be more informative. For example, by evaluating an agent based solely on his total score, does not reveal how an agent is playing the game, but using information such as, performed actions, or collected items, does. It shows that different agents tend to do different things, which eventually affects the total score. 
+
+\section{Lookout}
+Based on the current work, additions and improvements are possible. The current setup supports only the ``MsPacmanNoFrameskip-v4'' environment. A framework, that supports more environments and provides detailed information about the environment and rewards, could be developed. This could solve the issue in the second level of the game, where it is not possible to distinguish between eating a ghost and a fruit. Other improvements could be to measure the performance on how much score and items an agent collects per life. Adjusting the action random probability and/or adding a sticky action probability might also lead to different insights. There are definitely many more things that can be added; however, it was not possible to implement those in the available time frame.
+
+
+
+
+

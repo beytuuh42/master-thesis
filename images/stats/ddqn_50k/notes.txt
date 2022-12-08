@@ -1,0 +1,2 @@
+had initial collect for 1k steps
+20min

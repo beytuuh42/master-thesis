@@ -1,0 +1,58 @@
+% erste Seite (Titelseite) der Diplomarbeit mit Titel, Name usw...
+
+\newsavebox{\Prof}
+\savebox{\Prof}{Erst-Prüfer: }
+
+\newsavebox{\Betr}
+\savebox{\Betr}{Zweit-Prüfer: }
+
+
+
+\begin{titlepage}
+%\begin{textblock}{50}(150,30)
+  %\includegraphics[height=3cm]{source/images/BO-Logo_m_Wortmarke_P10cmWebHQ}
+	%\includegraphics[height=1cm]{source/images/BO-Logo_m_Wortmarke_L10cmWebHQ}	
+%	\includegraphics[height=4cm]{source/images/BO-Logo_m_Wortmarke_P10cmWebHQ}
+%\end{textblock}
+\begin{center}
+%\includegraphics[height=2cm]{source/images/logo_mirolab.png}
+
+
+\textbf{\LARGE Bachelorarbeit}\\[3mm]
+
+im Studiengang \\
+\Studiengang \\
+\vspace{1.5cm}
+
+{\huge \TitelArbeit}
+\vspace{1cm}
+
+vorgelegt von\\
+\textbf{\large{\DeinName}}\\
+\vspace{1.5cm}
+
+an der \HS \\[1mm]
+am 29.07.2020 \\[1mm]
+zur Erlangung des akademischen Grades eines \\[2mm]
+\textbf{\large{Bachelor of Science}}
+\vspace{1.5cm}
+
+Betreuer: \\[2mm]
+
+\usebox{\Prof \PrueferEins} \\
+\usebox{\Betr \PrueferZwei} \\
+
+\vspace{1.5cm}
+
+\end{center}
+\begin{textblock}{50}(20,250)
+  %\includegraphics[height=3cm]{source/images/BO-Logo_m_Wortmarke_P10cmWebHQ}
+	\includegraphics[height=3cm]{source/images/logo_150}	
+	
+\end{textblock}
+
+%% Hier kann natürlich auch jedes andere Logo eingebunden werden! %%
+%%\begin{textblock}{40}(150,250)
+%%  \includegraphics[height=3cm]{source/images/logo_mirolab.png}%%
+%%\end{textblock}%%
+\end{titlepage}

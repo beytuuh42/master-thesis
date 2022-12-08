@@ -1,0 +1,833 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.23)  26 JUL 2020 21:37
+entering extended mode
+**./header.tex
+(header.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-07-17>
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\scrbook.cls
+Document Class: scrbook 2020/04/19 v3.30 KOMA-Script document class (book)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
+)))
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box45
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Class scrbook Info: You've used standard option `final'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `draft=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `draft=false' there
+(scrbook)           instead of `final', too.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+Package scrbook Info: You've used standard option `11pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=11pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=11pt' there
+(scrbook)             instead of `11pt', too.
+Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
+ne 2427.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\scrsize11pt.
+clo
+File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt
+)
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count168
+Package typearea Info: You've used standard option `pdftex'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `pagesize=pdftex'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `pagesize=pdftex' there
+(typearea)             instead of `pdftex', too.
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 541.40024pt
+(typearea)              \topmargin      = -4.03914pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1738.
+)
+\c@part=\count169
+\c@chapter=\count170
+\c@section=\count171
+\c@subsection=\count172
+\c@subsubsection=\count173
+\c@paragraph=\count174
+\c@subparagraph=\count175
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5586.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 5596.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 5596.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 5605.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 5615.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 5615.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 5625.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 5625.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 5635.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 5635.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 5645.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 5645.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box46
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6887.
+
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count176
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6908.
+
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count177
+Class scrbook Info: Redefining `\numberline' on input line 7081.
+\bibindent=\dimen134
+) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count178
+\calc@Bcount=\count179
+\calc@Adimen=\dimen135
+\calc@Bdimen=\dimen136
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count180
+\calc@Cskip=\skip66
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+\AM@pagewidth=\dimen139
+\AM@pageheight=\dimen140
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box47
+\AM@global@opts=\toks16
+\AM@pagecnt=\count181
+\AM@toc@title=\toks17
+\c@AM@survey=\count182
+\AM@templatesizebox=\box48
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\scrhack.sty
+Package: scrhack 2020/04/19 v3.30 KOMA-Script package (hacking other packages)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-07-17 L3 programming layer (loader) 
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/l3backend\l3backend-pdfm
+ode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count183
+\l__pdf_internal_box=\box49
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/l3packages/xparse\xparse
+-generic.tex
+\l__xparse_current_arg_int=\count184
+\g__xparse_grabber_int=\count185
+\l__xparse_m_args_int=\count186
+\l__xparse_v_nesting_int=\count187
+))
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count188
+))) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box50
+\extrarowheight=\dimen142
+\NC@list=\toks18
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box51
+)
+\TX@col@width=\dimen143
+\TX@old@table=\dimen144
+\TX@old@col=\dimen145
+\TX@target=\dimen146
+\TX@delta=\dimen147
+\TX@cols=\count189
+\TX@ftn=\toks19
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/psnfss\palatino.sty
+Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/base\ansinew.def
+File: ansinew.def 2018/08/11 v1.3c Input encoding file
+))
+
+! LaTeX Error: Option clash for package graphicx.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \usepackage
+                {siunitx}
+The package graphicx has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvips]
+Adding the global options:
+  ,dvips
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen148
+))
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
+ys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen149
+\l__siunitx_tmp_int=\count190
+\l__siunitx_number_mantissa_length_int=\count191
+\l__siunitx_number_uncert_length_int=\count192
+\l__siunitx_round_int=\count193
+\l__siunitx_process_decimal_int=\count194
+\l__siunitx_process_uncertainty_int=\count195
+\l__siunitx_process_fixed_int=\count196
+\l__siunitx_process_integer_min_int=\count197
+\l__siunitx_process_precision_int=\count198
+\l__siunitx_group_min_int=\count199
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen150
+\l__siunitx_angle_unit_dim=\dimen151
+\l__siunitx_unit_int=\count266
+\l__siunitx_unit_denominator_int=\count267
+\l__siunitx_unit_numerator_int=\count268
+\l__siunitx_unit_prefix_int=\count269
+\l__siunitx_unit_prefix_base_int=\count270
+\l__siunitx_unit_prefix_gram_int=\count271
+\l__siunitx_number_product_int=\count272
+\c__siunitx_one_fill_skip=\skip69
+\l__siunitx_table_unit_align_skip=\skip70
+\l__siunitx_table_exponent_dim=\dimen152
+\l__siunitx_table_integer_dim=\dimen153
+\l__siunitx_table_mantissa_dim=\dimen154
+\l__siunitx_table_marker_dim=\dimen155
+\l__siunitx_table_result_dim=\dimen156
+\l__siunitx_table_uncert_dim=\dimen157
+\l__siunitx_table_fill_pre_dim=\dimen158
+\l__siunitx_table_fill_post_dim=\dimen159
+\l__siunitx_table_fill_mid_dim=\dimen160
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
+\l__siunitx_table_number_align_skip=\skip71
+\l__siunitx_table_text_align_skip=\skip72
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/translator\translator.st
+y
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+)) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen161
+\captionmargin@=\dimen162
+\captionwidth=\dimen163
+\caption@tempdima=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
+Package caption Info: KOMA-Script document class detected.
+)
+Package caption Info: KOMA-Script document class.
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
+)
+\c@KVtest=\count275
+\sf@farskip=\skip73
+\sf@captopadj=\dimen168
+\sf@capskip=\skip74
+\sf@nearskip=\skip75
+\c@subfigure=\count276
+\c@subfigure@save=\count277
+\c@lofdepth=\count278
+\c@subtable=\count279
+\c@subtable@save=\count280
+\c@lotdepth=\count281
+\sf@top=\skip76
+\sf@bottom=\skip77
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count282
+\float@exts=\toks23
+\float@box=\box59
+\@float@everytoks=\toks24
+\@floatcapt=\box60
+)
+Package scrhack Info: loading float hack on input line 65.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\float.hak
+File: float.hak 2020/04/19 v3.30 KOMA-Script scrhack part (hacking package floa
+t)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box61
+\UL@hyphenbox=\box62
+\UL@skip=\skip78
+\UL@hook=\toks25
+\UL@height=\dimen169
+\UL@pe=\count283
+\UL@pixel=\dimen170
+\ULC@box=\box63
+Package: ulem 2019/11/18
+\ULdepth=\dimen171
+)
+(C:/Users/r4yy/Documents/mytexmf\tex/latex\mystuff\picins\picins.sty
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box64
+\@TEXT=\box65
+\d@breite=\dimen172
+\d@hoehe=\dimen173
+\d@xoff=\dimen174
+\d@yoff=\dimen175
+\d@shad=\dimen176
+\d@dash=\dimen177
+\d@boxl=\dimen178
+\d@pichskip=\dimen179
+\d@tmp=\dimen180
+\d@tmpa=\dimen181
+\d@bskip=\dimen182
+\hsiz@=\dimen183
+\p@getot@l=\dimen184
+\c@breite=\count284
+\c@hoehe=\count285
+\c@xoff=\count286
+\c@yoff=\count287
+\c@pos=\count288
+\c@shad=\count289
+\c@dash=\count290
+\c@boxl=\count291
+\c@zeilen=\count292
+\@changemode=\count293
+\c@piccaption=\count294
+\c@piccaptionpos=\count295
+\c@picpos=\count296
+\c@whole=\count297
+\c@half=\count298
+\c@tmp=\count299
+\c@tmpa=\count300
+\c@tmpb=\count301
+\c@tmpc=\count302
+\c@tmpd=\count303
+\d@leftskip=\skip79
+\ptoti=\dimen185
+\ptotii=\dimen186
+\env@box=\box66
+\d@envdp=\dimen187
+\c@hsize=\count304
+\c@envdp=\count305
+\d@envb=\dimen188
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 11
+2.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/psnfss\t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+))
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/multido\multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/multido\multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count306
+\multidocount=\count307
+\multido@stuff=\toks26
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/mdwtools\mdwlist.sty
+Package: mdwlist 1996/05/02 1.1 Various list-related things
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/paralist\paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip80
+\plpartopsep=\skip81
+\plitemsep=\skip82
+\plparsep=\skip83
+\pl@lab=\toks27
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count308
+\LTcapwidth=\dimen189
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@cols=\count309
+\LT@rows=\count310
+\c@LT@tables=\count311
+\c@LT@chunks=\count312
+\LT@p@ftn=\toks28
+)
+Class scrbook Info: longtable captions redefined on input line 73.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks29
+\minrowclearance=\skip88
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Package scrhack Info: loading setspace hack on input line 79.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\setspace.hak
+File: setspace.hak 2020/04/19 v3.30 KOMA-Script scrhack part (hacking package s
+etspace)
+) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/07/13 3.47 The Babel package
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/07/13 3.47 Babel common definitions
+\babel@savecnt=\count313
+\U@D=\dimen190
+\l@babelnohyphens=\language79
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count314
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/babel-english\american.l
+df
+Language: american 2017/06/06 v3.3r English support from the babel system
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/babel-english\english.ld
+f
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+)))
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count315
+\csq@gtype=\count316
+\csq@glevel=\count317
+\csq@qlevel=\count318
+\csq@maxlvl=\count319
+\csq@tshold=\count320
+\csq@ltx@everypar=\toks30
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+
+Class scrbook Warning: Usage of package `tocloft' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use options like `listof=entryprefix',
+(scrbook)              commands like `\listoflofentryname' or
+(scrbook)              `\listoflotentryname', and `\DeclareTOCStyleEntry' or
+(scrbook)              `\RedeclareSectionCommand' instead of this package,
+(scrbook)              because it breaks several KOMA-Script features of
+(scrbook)              the list of figures, list of tables and table of
+(scrbook)              contents, i.e., options like `listof=numbered',
+(scrbook)              `listof=flat or `toc=flat', commands like
+(scrbook)              `\BeforeTOCHead{...}' and `\AfterTOCHead{...}',
+(scrbook)              `\BeforeStartingTOC{...}' and \AfterStartingTOC{...}',
+(scrbook)              all features of `\DeclareTOCStyleEntry',
+(scrbook)              and the ToC entry features of `\DeclareSecionCommand'
+(scrbook)              and `\RedeclareSectionCommand' of levels
+(scrbook)              `part', `section', `subsection',
+(scrbook)              `subsubsection', `paragraph' and `subparagraph'.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `tocloft' on input line 87.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip89
+\cftbeforetoctitleskip=\skip90
+\cftaftertoctitleskip=\skip91
+\cftbeforepartskip=\skip92
+\cftpartnumwidth=\skip93
+\cftpartindent=\skip94
+\cftbeforechapskip=\skip95
+\cftchapindent=\skip96
+\cftchapnumwidth=\skip97
+\cftbeforesecskip=\skip98
+\cftsecindent=\skip99
+\cftsecnumwidth=\skip100
+\cftbeforesubsecskip=\skip101
+\cftsubsecindent=\skip102
+\cftsubsecnumwidth=\skip103
+\cftbeforesubsubsecskip=\skip104
+\cftsubsubsecindent=\skip105
+\cftsubsubsecnumwidth=\skip106
+\cftbeforeparaskip=\skip107
+\cftparaindent=\skip108
+\cftparanumwidth=\skip109
+\cftbeforesubparaskip=\skip110
+\cftsubparaindent=\skip111
+\cftsubparanumwidth=\skip112
+\cftbeforeloftitleskip=\skip113
+\cftafterloftitleskip=\skip114
+\cftbeforefigskip=\skip115
+\cftfigindent=\skip116
+\cftfignumwidth=\skip117
+\cftbeforelottitleskip=\skip118
+\cftafterlottitleskip=\skip119
+\cftbeforetabskip=\skip120
+\cfttabindent=\skip121
+\cfttabnumwidth=\skip122
+\cftbeforesubfigskip=\skip123
+\cftsubfigindent=\skip124
+\cftsubfignumwidth=\skip125
+\cftbeforesubtabskip=\skip126
+\cftsubtabindent=\skip127
+\cftsubtabnumwidth=\skip128
+)
+\c@myequations=\count321
+\cftbeforemyequationsskip=\skip129
+\cftmyequationsindent=\skip130
+\cftmyequationsnumwidth=\skip131
+\c@equdepth=\count322
+\cftbeforeequtitleskip=\skip132
+\cftafterequtitleskip=\skip133
+\@indexfile=\write3
+\openout3 = `header.idx'.
+
+
+Writing index file header.idx
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/textpos\textpos.sty
+Package: textpos 2019/04/15 v1.9.1
+
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+\TP@textbox=\box71
+\TP@holdbox=\box72
+\TPHorizModule=\dimen191
+\TPVertModule=\dimen192
+\TP@margin=\dimen193
+\TP@absmargin=\dimen194
+
+Grid set 16 x 16 = 37.34424pt x 52.81543pt
+\TPboxrulesize=\dimen195
+\TP@ox=\dimen196
+\TP@oy=\dimen197
+\TP@tbargs=\toks31
+\TP@prevdepth=\dimen198
+TextBlockOrigin set to 0pt x 0pt
+) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count323
+\lst@gtempboxa=\box73
+\lst@token=\toks32
+\lst@length=\count324
+\lst@currlwidth=\dimen199
+\lst@column=\count325
+\lst@pos=\count326
+\lst@lostspace=\dimen256
+\lst@width=\dimen257
+\lst@newlines=\count327
+\lst@lineno=\count328
+\lst@maxwidth=\dimen258
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count329
+\lst@skipnumbers=\count330
+\lst@framebox=\box74
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package scrhack Info: loading listings hack on input line 119.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/koma-script\listings.hak
+File: listings.hak 2020/04/19 v3.30 KOMA-Script scrhack part (hacking package l
+istings)
+Package tocbasic Info: setting babel extension for `lol' on input line 143.
+Package scrhack Info: redefining \lstlistoflistings on input line 143.
+)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrlayer' or `scrlayer-scrpage', because
+(scrbook)              they support KOMA-Script classes.
+(scrbook)              With `fancyhdr' several features of class `scrbook'
+(scrbook)              like options `headsepline', `footsepline' or command
+(scrbook)              `\MakeMarkcase' and the commands `\setkomafont' and
+(scrbook)              `\addtokomafont' for the page style elements need
+(scrbook)              explicite user intervention to work.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 165.
+
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip134
+\f@nch@O@elh=\skip135
+\f@nch@O@erh=\skip136
+\f@nch@O@olh=\skip137
+\f@nch@O@orh=\skip138
+\f@nch@O@elf=\skip139
+\f@nch@O@erf=\skip140
+\f@nch@O@olf=\skip141
+\f@nch@O@orf=\skip142
+)
+(C:/Users/r4yy/AppData/Local/Programs/MiKTeX\tex/latex/expdlist\expdlist.sty
+Document Substyle `EXPDLIST'. Released 22.09.1999 (V 2.4)
+English Documentation  22.09.99
+\listpartsep=\skip143
+)
+
+! LaTeX Error: File `glossar.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.184 
+       
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 13204 strings out of 481225
+ 260338 string characters out of 2906643
+ 862359 words of memory out of 3000000
+ 28570 multiletter control sequences out of 15000+200000
+ 536425 words of font info for 32 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,1n,72p,10110b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
